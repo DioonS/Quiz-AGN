@@ -49,11 +49,12 @@ a {
 
 .image img{
     width: 20%;
-    border-radius: 150px;
+    border-radius: 300px;
     margin-left: 60rem;
     margin-top: 1rem;
     opacity: .5;
 }
+
 /**********************************/
 /* 2. Cards
 /**********************************/
@@ -168,4 +169,48 @@ a {
     font-weight: bold;
     cursor: pointer;
     font-family: 'Quicksand';
+}
+
+/**********************************/
+/* 2. Game Memorize
+/**********************************/
+
+.title {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: Quicksand;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.image-container img {
+    width: 900px;
+    border-radius: 8px;
+}
+
+#timer {
+    background-color: #ffffff;
+    width: 100px;
+    height: 40px;
+    font-size: 2rem;
+    font-family: Quicksand;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    margin-left: 20rem;
+    z-index: 1;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    border-radius: 10px;
+    
 }
