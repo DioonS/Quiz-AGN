@@ -28,5 +28,5 @@ window.onload = function() {
 };
 
 setTimeout(function() {
-    window.location.href = "index.html"
+    window.location.href = "./quiz.html"
 }, 6000);

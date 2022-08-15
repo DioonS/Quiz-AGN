@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -48,9 +50,9 @@ a {
 }
 
 .image img{
-    width: 20%;
+    width: 15%;
     border-radius: 300px;
-    margin-left: 60rem;
+    margin-left: 70rem;
     margin-top: 1rem;
     opacity: .5;
 }
@@ -153,7 +155,7 @@ a {
 .exit {
     position: absolute;
     display: flex;
-    margin-left: 68rem;
+    margin-left: 82rem;
     margin-top: -2rem;
 }
 
@@ -200,17 +202,115 @@ a {
 
 #timer {
     background-color: #ffffff;
-    width: 100px;
-    height: 40px;
-    font-size: 2rem;
-    font-family: Quicksand;
+    width: 120px;
+    height: 50px;
+    font-size: 3rem;
+    font-family: 'Iceland', cursive;
     font-weight: bold;
     align-items: center;
     text-align: center;
     margin-left: 20rem;
-    z-index: 1;
     margin-bottom: -4rem;
     margin-top: 4rem;
     border-radius: 10px;
-    
 }
+
+/* TESTE */
+
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-container{
+    margin: 10px;
+    padding: 5px;
+    width: 40vw;
+    height: 20vh;
+    background-color: #c7dddf;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 3.4rem;
+}
+
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+      
+}
+.option-container{
+    display: flex;
+    justify-content: space-around; 
+    margin: 5px;
+    padding: 5px;
+    width: 40vw;
+    height: 50vh;
+    background-color: #9eb1b3;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option{    
+    padding: 10px;
+    width: 39vw;
+    height: 9vh;
+    font-size: larger;
+    background-color: lightskyblue;
+    border-radius: 25px;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: Quicksand;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.option:hover{
+    background-image: linear-gradient(315deg, rgba(234,97,0,1) 42%, rgba(255,149,0,1) 93%);
+}
+
+
+.evaluate,.next{
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 2rem;
+    font-family: Quicksand;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 40vw;
+    height: 10vh;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.evaluate{
+    background-color: #50DBB4;
+    margin-bottom: 6rem;
+}
+
+/* 
+.next{
+    color: white;
+    background-color: #BF3325;
+    border-radius: 20px;
+    border: none;
+    font-size: 2rem;
+    font-family: Quicksand;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ */
