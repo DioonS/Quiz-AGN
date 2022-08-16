@@ -47,7 +47,6 @@ question.style.fontFamily = "Quicksand";
 question.style.fontWeight = "bold";
 question.style.fontSize = "2rem";
 question.style.display = "flex";
-question.style.alignContent = "center";
 question.style.alignItems = "center";
 question.style.justifyContent = "space-around";
 question.innerText = Questions[id].q;
