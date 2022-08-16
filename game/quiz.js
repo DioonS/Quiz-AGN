@@ -32,10 +32,6 @@ const Questions = [{
 } */
 ]
 
-
-
-
-
 var start = true;
 
 function iterate(id) {
@@ -45,6 +41,15 @@ result[0].innerText = "";
 
 const question = document.getElementById("question");
 
+question.style.color = "#fff";
+question.style.textTransform = "uppercase";
+question.style.fontFamily = "Quicksand";
+question.style.fontWeight = "bold";
+question.style.fontSize = "2rem";
+question.style.display = "flex";
+question.style.alignContent = "center";
+question.style.alignItems = "center";
+question.style.justifyContent = "space-around";
 question.innerText = Questions[id].q;
 
 const op1 = document.getElementById('op1');
