@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@font-face {
+    font-family: 'Minecrafter';
+    src: url('Minecrafter.Alt.ttf'), url('Minecrafter.Reg.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     padding: 0;
@@ -40,23 +46,46 @@ a {
 /* 2. Initial page
 /**********************************/
 
-.game h1{
-    text-align: center;
-    margin-top: 15%;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: 6rem;
-    font-family: 'Quicksand';
-    text-shadow: rgba(51, 51, 51, 20%) 0 -8px;
+.container {
+    justify-content: center;
+}
+
+.titleQuiz {
+    display: flex;
+    justify-content: center;
+    font-family: 'Minecrafter';
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #c17e19;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 .image img{
-    width: 15%;
+    width: 20%;
     border-radius: 300px;
-    margin-left: 70rem;
-    margin-top: 1rem;
     opacity: .5;
     box-shadow: 5px 5px 30px 0 rgba(51, 51, 51, 40%);
+}
+
+.start {
+    border-radius: 4px;
+    width: 200px;
+    height: 60px;
+    border-color: #2606a8;
+    font-size: 20px;
+    background-color: #c8990b;
+    box-shadow: 5px 5px 30px 0 rgba(51, 51, 51, 40%);
+}
+
+.startBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 /**********************************/
@@ -251,7 +280,6 @@ a {
     height: 10vh;
     text-align: center;
     font-size: 50px;
-      
 }
 .option-container{
     display: flex;
