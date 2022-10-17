@@ -1,28 +1,24 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-    <link rel="stylesheet" href="../style.css">
-    <title>AGN Acessoria</title>
+    <title>Quiz AGN</title>
+    <link rel="stylesheet" href="../quiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-    <div class="start_btn">
-        <button>Start Quiz</button>
-    </div>
-    <!-- Caixa de informações -->
+    <div class="start_btn"><button>Iniciar</button></div>
+
     <div class="info_box">
-        <div class="info_title">
-            <span>Some rule of this Quiz</span>
-        </div>
-        <div class="info_list">
-            <div class="info">1. daskljdklasjdjsadas</div>
-            <div class="info">2. dasjiodhasiodjsodad</div>
-            <div class="info">3. dkajsodijasodjoisjd</div>
-            <div class="info">4. dasndohasidhiahdius</div>
-            <div class="info">5. dkasjdoasjdjsdklasj</div>
+        <div class="info-title"><span>Regras</span></div>
+        <div class="info-list">
+            <div class="info">1. Você tera <span>15 segundos</span> por questões.</div>
+            <div class="info">2. Você pode selecionar uma resposta, ela não pode ser desfeita.</div>
+            <div class="info">3. Você não pode selecionar nenhuma opção depois que o tempo acabar.</div>
+            <div class="info">4. Você não pode sair do Quiz enquanto estiver jogando.</div>
+            <div class="info">5. Você receberá pontos com base em suas respostas corretas.</div>
         </div>
         <div class="buttons">
             <button class="quit">Sair</button>
@@ -33,30 +29,48 @@
     <!-- Quiz Box -->
     <div class="quiz_box">
         <header>
-            <div class="titlequiz">Quiz Application</div>
-            <div class="time_text">Time Left</div>
-            <div class="timer_sec">15</div>
+            <div class="title">Quiz</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo restante</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
         </header>
-        <div class="que_text">
-            <span>sopakpsokaposkpoakskpaoskpoaksopk</span>
+        <section>
+            <div class="que_text">
+                <!-- Opções colocadas por javascript -->
+            </div>
+            <div class="option_list">
+                <!-- Opções colocadas por javascript -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+                <!-- Numero de contagem via JS -->
+            </div>
+            <button class="next_btn">Próxima pergunta</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
         </div>
-        <div class="option_list">
-            <div class="option">
-                <span>dopaskdopaskdposakdposakd</span>
-                <div class="icon"><i class="fas fa-check"></i></div>
-            </div>
-            <div class="option">
-                <span>dopaskdopaskdposakdposakd</span>
-                <div class="icon"><i class="fas fa-times"></i></div>
-            </div>
-            <div class="option">
-                <span>dopaskdopaskdposakdposakd</span>
-            </div>
-            <div class="option">
-                <span>dopaskdopaskdposakdposakd</span>
-            </div>
+        <div class="complete_text">Você completou o Quiz!</div>
+        <div class="score_text">
+            <!-- Score via JS -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Repetir Quiz</button>
+            <button class="quit">Sair</button>
         </div>
     </div>
-    <script src="quiz.js"></script>
+
+    <!-- JS com os codigos do Quiz -->
+    <script src="../quiz.js"></script>
+
+    <!-- Arquivo JS com as perguntas -->
+    <script src="../questions.js"></script>
 </body>
 </html>
