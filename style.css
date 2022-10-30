@@ -366,3 +366,12 @@ a {
     color: #ffffff;
     background: #007bff;
 }
+
+@media (max-width: 450px) {
+    #quizz-container,
+    #score-container {
+    border: none;
+    width: 100%;
+    box-shadow: none;
+    }
+}

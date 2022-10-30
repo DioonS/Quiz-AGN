@@ -1,76 +1,47 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz AGN</title>
-    <link rel="stylesheet" href="../quiz.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz Programação</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <linkhref="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="quiz.css" />
+    <script src="quiz.js" defer></script>
 </head>
 <body>
-    <div class="start_btn"><button>Iniciar</button></div>
+    <div class="container">
+    <main>
+        <!-- QUIZZ CONTAINER -->
+        <div id="quizz-container">
+            <p id="question">
+            <span id="question-number"></span> &#8212;
+            <span id="question-text"></span>
+            </p>
+        <div id="answers-box">
+            <button><span class="btn-letter"></span> <span class="question-answer"></span></button>
+            <button><span class="btn-letter"></span> <span class="question-answer"></span></button>
+            <button><span class="btn-letter"></span> <span class="question-answer"></span></button>
+            <button><span class="btn-letter"></span> <span class="question-answer"></span></button>
+        </div>
+        </div>
 
-    <div class="info_box">
-        <div class="info-title"><span>Regras</span></div>
-        <div class="info-list">
-            <div class="info">1. Você tera <span>15 segundos</span> por questões.</div>
-            <div class="info">2. Você pode selecionar uma resposta, ela não pode ser desfeita.</div>
-            <div class="info">3. Você não pode selecionar nenhuma opção depois que o tempo acabar.</div>
-            <div class="info">4. Você não pode sair do Quiz enquanto estiver jogando.</div>
-            <div class="info">5. Você receberá pontos com base em suas respostas corretas.</div>
+        <!-- SCORE BOARD -->
+        <div id="score-container" class="hide">
+            <h2>Parabéns</h2>
+        <p id="display-score"><span>90</span>%</p>
+        <p>
+            Você acertou <span id="correct-answers">0</span> de
+            <span id="questions-qty">10</span> perguntas
+        </p>
+        <button id="restart">Restart</button>
         </div>
-        <div class="buttons">
-            <button class="quit">Sair</button>
-            <button class="restart">Continuar</button>
-        </div>
+
+        <!-- TEMPLATE RESPOSTA -->
+        <button class="answer-template hide">
+            <span class="btn-letter"></span> <span class="question-answer"></span>
+        </button>
+    </main>
     </div>
-
-    <!-- Quiz Box -->
-    <div class="quiz_box">
-        <header>
-            <div class="title">Quiz</div>
-            <div class="timer">
-                <div class="time_left_txt">Tempo restante</div>
-                <div class="timer_sec">15</div>
-            </div>
-            <div class="time_line"></div>
-        </header>
-        <section>
-            <div class="que_text">
-                <!-- Opções colocadas por javascript -->
-            </div>
-            <div class="option_list">
-                <!-- Opções colocadas por javascript -->
-            </div>
-        </section>
-
-        <footer>
-            <div class="total_que">
-                <!-- Numero de contagem via JS -->
-            </div>
-            <button class="next_btn">Próxima pergunta</button>
-        </footer>
-    </div>
-
-    <div class="result_box">
-        <div class="icon">
-            <i class="fas fa-crown"></i>
-        </div>
-        <div class="complete_text">Você completou o Quiz!</div>
-        <div class="score_text">
-            <!-- Score via JS -->
-        </div>
-        <div class="buttons">
-            <button class="restart">Repetir Quiz</button>
-            <button class="quit">Sair</button>
-        </div>
-    </div>
-
-    <!-- JS com os codigos do Quiz -->
-    <script src="../quiz.js"></script>
-
-    <!-- Arquivo JS com as perguntas -->
-    <script src="../questions.js"></script>
 </body>
 </html>
