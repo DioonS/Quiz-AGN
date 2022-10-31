@@ -72,7 +72,7 @@ a {
 
 @media screen and (min-width: 250px) {
     .titleQuiz {
-        margin-top: 7rem;
+        margin-top: 15rem;
         font-size: 30px;
     }
     .topimage {
@@ -82,7 +82,7 @@ a {
     .image img{
         width: 70%;
         height: auto;
-        margin-top: -2rem;
+        margin-top: -6rem;
     }
     .start {
         margin-top: 2rem;
