@@ -49,6 +49,7 @@ a {
 
 .topimage img{
     width: 100vw;
+    height: auto;
     margin-top: -30rem;
     z-index: -1;
 }
@@ -69,13 +70,14 @@ a {
     color: #c17e19;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 250px) {
     .titleQuiz {
         margin-top: 7rem;
         font-size: 30px;
     }
     .topimage {
-        margin-top: 9.5rem;
+        margin-top: 8rem;
+        height: 90%;
     }
     .image img{
         width: 70%;
