@@ -70,27 +70,6 @@ a {
     color: #c17e19;
 }
 
-@media screen and (min-width: 150px) {
-    .titleQuiz {
-        margin-top: 16.5rem;
-        font-size: 35px;
-    }
-    .topimage {
-        margin-top: 8rem;
-        height: 90%;
-    }
-    .image img{
-        width: 70%;
-        height: auto;
-        margin-top: -6rem;
-    }
-    .start {
-        margin-top: 2rem;
-    }
-}
-
-
-
 .image {
     display: flex;
     justify-content: center;
@@ -138,10 +117,12 @@ footer {
 /* 2. Cards
 /**********************************/
 
+
+
 .container-up {
     display: flex;
     margin-top: 2rem;
-    padding: 20px;
+    padding: 10px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -151,6 +132,7 @@ footer {
 .container-down {
     display: flex;
     justify-content: center;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     column-gap: 20px;
@@ -400,3 +382,26 @@ footer {
     box-shadow: none;
     }
 }
+
+/* Responsive min  1º pagina*/
+@media screen and (min-width: 150px) {
+    .titleQuiz {
+        margin-top: 16.5rem;
+        font-size: 35px;
+    }
+    .topimage {
+        margin-top: 8rem;
+        height: 90%;
+    }
+    .image img{
+        width: 70%;
+        height: auto;
+        margin-top: -6rem;
+    }
+    .start {
+        margin-top: 2rem;
+    }
+}
+
+/* Responsive min  2º pagina cards*/
+
