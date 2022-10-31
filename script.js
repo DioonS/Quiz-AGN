@@ -27,6 +27,6 @@ window.onload = function() {
     
 };
 
-setTimeout(function() {
+/*setTimeout(function() {
     window.location.href = "./quiz.html"
-}, 6000);
+}, 6000);*/
