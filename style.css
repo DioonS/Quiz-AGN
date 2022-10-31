@@ -70,7 +70,7 @@ a {
     color: #c17e19;
 }
 
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 200px) {
     .titleQuiz {
         margin-top: 15rem;
         font-size: 30px;
