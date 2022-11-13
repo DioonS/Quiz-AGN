@@ -1,4 +1,4 @@
-/*function startTimer(duration, display) {
+function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
 
     setInterval(function() {
@@ -29,4 +29,4 @@ window.onload = function() {
 
 setTimeout(function() { // Ao fim da contagem encaminha para a tela seguinte
     window.location.href = "./quiz.html"
-}, 6000);*/
+}, 6000);
