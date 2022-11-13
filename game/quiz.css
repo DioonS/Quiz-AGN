@@ -78,7 +78,8 @@ footer {
 
   /* SCORE CONTAINER */
 #quizz-container,
-#score-container {
+#score-container,
+#container-question {
     color: #222222;
     text-align: center;
     padding: 25px;
@@ -87,13 +88,20 @@ footer {
     box-shadow: 7px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
+#container-question {
+    position: absolute;
+    margin-top: 44rem;
+}
+
 #quizz-container,
-#score-container {
+#score-container,
+#container-question {
     width: 500px;
     max-width: 90%;
 }
 
-#score-container p {
+#score-container,
+#container-question p {
     margin: 20px 0;
 }
 
