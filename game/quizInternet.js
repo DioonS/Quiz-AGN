@@ -13,104 +13,62 @@ const questions = [
     question: 'Qual o valor da conta?',
     answers: [
       {
-        answer: 'R$ 190,80',
+        answer: 'R$ 290,78',
         correct: true,
       },
       {
-        answer: 'R$ 88,10',
+        answer: 'R$ 274,80',
         correct: false,
       },
       {
-        answer: 'R$ 90,80',
+        answer: 'R$ 259,46',
         correct: false,
       },
       {
-        answer: 'R$ 100,75',
+        answer: 'R$ 349,48',
         correct: false,
       },
     ],
   },
   {
-    question: 'Qual a porcentagem de juros cobrada na conta?',
+    question: 'O que é recuperação tributária?',
     answers: [
       {
-        answer: '8%',
+        answer: 'Imposto novo do governo',
         correct: false,
       },
       {
-        answer: '5%',
+        answer: 'Nenhuma das alternativas',
         correct: true,
       },
       {
-        answer: '18%',
+        answer: 'Valores a receber',
         correct: false,
       },
       {
-        answer: '2%',
+        answer: 'Dívidas com o governo',
         correct: false,
       },
     ],
   },
   {
-    question: 'Quanto de juros foi/será pago?',
+    question: 'Em quanto tempo é feita a recuperação?',
     answers: [
       {
-        answer: 'R$ 18,84',
+        answer: '1 Ano',
         correct: true,
       },
       {
-        answer: 'R$ 59,66',
+        answer: '45 Dias',
         correct: false,
       },
       {
-        answer: 'R$ 89,90',
+        answer: '365 Dias',
         correct: false,
       },
       {
-        answer: 'R$ 77,50',
+        answer: '5 Anos',
         correct: false,
-      },
-    ],
-  },
-  {
-    question: 'Quem será o presidente do Brasil em 2022 ?',
-    answers: [
-      {
-        answer: ' Jair Messias "Bolsonaro"',
-        correct: false,
-      },
-      {
-        answer: 'Zé Inácio "Lula" da Silva',
-        correct: true,
-      },
-      {
-        answer: 'Ciro Gomes',
-        correct: false,
-      },
-      {
-        answer: 'Padre Quemedo',
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: 'O Diego é o homem da vida da Ana ?',
-    answers: [
-      {
-        answer: 'Não',
-        correct: false,
-      },
-      {
-        answer: 'Talvez',
-        correct: false,
-      },
-      {
-        answer: 'Sim',
-        correct: false,
-      },
-      {
-        answer: 'Com toda Certeza',
-        correct: true,
       },
     ],
   },
@@ -238,8 +196,9 @@ restartBtn.addEventListener('click', function () {
   //zerar jogo
   actualQuestion = 0;
   points = 0;
-  hideOrShowQuizz();
-  init();
+  //hideOrShowQuizz();
+  //init();
+  window.location.href = "./index.html"
 });
 
 // inicialização do quizz
