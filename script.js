@@ -1,4 +1,4 @@
-function startTimer(duration, display) {
+/*function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
 
     setInterval(function() {
@@ -20,13 +20,13 @@ function startTimer(duration, display) {
 }
 
 window.onload = function() {
-    var duration = 5; // Converter to seconds
-    var display = document.querySelector('#timer'); // Select timer
+    var duration = 5; // Converter para segundos
+    var display = document.querySelector('#timer'); // Seleciona o timer
 
-    startTimer(duration, display); // Starts the timer
+    startTimer(duration, display); // Inicia o timer
     
 };
 
-setTimeout(function() {
+setTimeout(function() { // Ao fim da contagem encaminha para a tela seguinte
     window.location.href = "./quiz.html"
-}, 6000);
+}, 6000);*/
