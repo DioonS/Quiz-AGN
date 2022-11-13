@@ -14,7 +14,7 @@ const questions = [
     answers: [
       {
         answer: 'R$ 102,00',
-        correct: true,
+        correct: false,
       },
       {
         answer: 'R$ 64,40',
@@ -22,7 +22,7 @@ const questions = [
       },
       {
         answer: 'R$ 56,68',
-        correct: false,
+        correct: true,
       },
       {
         answer: 'R$ 84,47',
@@ -34,19 +34,19 @@ const questions = [
     question: 'O que é recuperação tributária?',
     answers: [
       {
+        answer: 'Valores a receber',
+        correct: true,
+      },
+      {
+        answer: 'Dívidas com o governo',
+        correct: false,
+      },
+      {
         answer: 'Imposto novo do governo',
         correct: false,
       },
       {
         answer: 'Nenhuma das alternativas',
-        correct: true,
-      },
-      {
-        answer: 'Valores a receber',
-        correct: false,
-      },
-      {
-        answer: 'Dívidas com o governo',
         correct: false,
       },
     ],
@@ -55,19 +55,19 @@ const questions = [
     question: 'Em quanto tempo é feita a recuperação?',
     answers: [
       {
-        answer: '1 Ano',
+        answer: '5 Anos',
         correct: true,
-      },
-      {
-        answer: '45 Dias',
-        correct: false,
       },
       {
         answer: '365 Dias',
         correct: false,
       },
       {
-        answer: '5 Anos',
+        answer: '45 Dias',
+        correct: false,
+      },
+      {
+        answer: '1 Ano',
         correct: false,
       },
     ],

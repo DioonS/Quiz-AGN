@@ -14,7 +14,7 @@ const questions = [
     answers: [
       {
         answer: 'R$ 290,78',
-        correct: true,
+        correct: false,
       },
       {
         answer: 'R$ 274,80',
@@ -22,7 +22,7 @@ const questions = [
       },
       {
         answer: 'R$ 259,46',
-        correct: false,
+        correct: true,
       },
       {
         answer: 'R$ 349,48',
@@ -34,20 +34,20 @@ const questions = [
     question: 'O que é recuperação tributária?',
     answers: [
       {
-        answer: 'Imposto novo do governo',
+        answer: 'Nenhuma das alternativas',
         correct: false,
       },
       {
-        answer: 'Nenhuma das alternativas',
-        correct: true,
-      },
-      {
-        answer: 'Valores a receber',
+        answer: 'Imposto novo do governo',
         correct: false,
       },
       {
         answer: 'Dívidas com o governo',
         correct: false,
+      },
+      {
+        answer: 'Valores a receber',
+        correct: true,
       },
     ],
   },
@@ -56,10 +56,6 @@ const questions = [
     answers: [
       {
         answer: '1 Ano',
-        correct: true,
-      },
-      {
-        answer: '45 Dias',
         correct: false,
       },
       {
@@ -68,6 +64,10 @@ const questions = [
       },
       {
         answer: '5 Anos',
+        correct: true,
+      },
+      {
+        answer: '45 Dias',
         correct: false,
       },
     ],

@@ -14,11 +14,11 @@ const questions = [
     answers: [
       {
         answer: 'R$ 101,50',
-        correct: true,
+        correct: false,
       },
       {
         answer: 'R$ 85,04',
-        correct: false,
+        correct: true,
       },
       {
         answer: 'R$ 99,70',
@@ -39,11 +39,11 @@ const questions = [
       },
       {
         answer: 'Nenhuma das alternativas',
-        correct: true,
+        correct: false,
       },
       {
         answer: 'Valores a receber',
-        correct: false,
+        correct: true,
       },
       {
         answer: 'Dívidas com o governo',
@@ -56,7 +56,7 @@ const questions = [
     answers: [
       {
         answer: '1 Ano',
-        correct: true,
+        correct: false,
       },
       {
         answer: '45 Dias',
@@ -68,7 +68,7 @@ const questions = [
       },
       {
         answer: '5 Anos',
-        correct: false,
+        correct: true,
       },
     ],
   },

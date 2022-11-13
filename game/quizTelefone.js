@@ -34,19 +34,19 @@ const questions = [
     question: 'O que é recuperação tributária?',
     answers: [
       {
-        answer: 'Imposto novo do governo',
-        correct: false,
-      },
-      {
-        answer: 'Nenhuma das alternativas',
+        answer: 'Valores a receber',
         correct: true,
       },
       {
-        answer: 'Valores a receber',
+        answer: 'Nenhuma das alternativas',
         correct: false,
       },
       {
         answer: 'Dívidas com o governo',
+        correct: false,
+      },
+      {
+        answer: 'Imposto novo do governo',
         correct: false,
       },
     ],
@@ -56,7 +56,7 @@ const questions = [
     answers: [
       {
         answer: '1 Ano',
-        correct: true,
+        correct: false,
       },
       {
         answer: '45 Dias',
@@ -68,7 +68,7 @@ const questions = [
       },
       {
         answer: '5 Anos',
-        correct: false,
+        correct: true,
       },
     ],
   },
