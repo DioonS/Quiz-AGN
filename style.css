@@ -84,8 +84,8 @@ a {
     box-shadow: 5px 5px 30px 0 rgba(51, 51, 51, 40%);
 }
 
-.start {
-    border-radius: 50px;
+/*.start {
+    border-radius: 5px;
     width: 200px;
     height: 60px;
     border: none;
@@ -94,6 +94,39 @@ a {
     font-size: 30px;
     background-color: #c8990b;
     box-shadow: 5px 5px 30px 0 rgba(51, 51, 51, 40%);
+}*/
+
+.start {
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Quicksand' bold;
+    background: linear-gradient(270deg, #f38300, #ddcbbd, #328dd7);
+    background-size: 800% 800%;
+    box-shadow: 5px 5px 30px 0 rgba(51, 51, 51, 40%);
+
+    -webkit-animation: start 25s ease infinite;
+    -moz-animation: start 25s ease infinite;
+    animation: start 25s ease infinite;
+}
+
+@-webkit-keyframes start {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes start {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes start {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .startBtn {
