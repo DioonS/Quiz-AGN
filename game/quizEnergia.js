@@ -11,22 +11,22 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
-    question: 'Qual o valor da conta?',
+    question: 'O que é COFINS?',
     answers: [
       {
-        answer: 'R$ 101,50',
+        answer: 'Contribuição Financeira Socialista',
         correct: false,
       },
       {
-        answer: 'R$ 85,04',
+        answer: 'Contribuição para Financiamento da Seguridade Social',
         correct: true,
       },
       {
-        answer: 'R$ 99,70',
+        answer: 'Contribuição Fiscal Fisco Social',
         correct: false,
       },
       {
-        answer: 'R$ 100,50',
+        answer: 'Contribuição Fisco Financeiro Socialista',
         correct: false,
       },
     ],
@@ -53,6 +53,27 @@ const questions = [
     ],
   },
   {
+    question: 'Qual alíquota do presumido?',
+    answers: [
+      {
+        answer: 'PIS 1,65% COFINS 7,8%',
+        correct: false,
+      },
+      {
+        answer: 'PIS 0,66% COFINS 1,65%',
+        correct: false,
+      },
+      {
+        answer: 'PIS 0,67% COFINS 1,74%',
+        correct: false,
+      },
+      {
+        answer: 'PIS 0,65% COFINS 3,0%',
+        correct: true,
+      },
+    ],
+  },
+  {
     question: 'Em quanto tempo é feita a recuperação?',
     answers: [
       {
@@ -70,6 +91,27 @@ const questions = [
       {
         answer: '5 Anos',
         correct: true,
+      },
+    ],
+  },
+  {
+    question: 'Qual o valor da conta?',
+    answers: [
+      {
+        answer: 'R$ 101,50',
+        correct: false,
+      },
+      {
+        answer: 'R$ 85,04',
+        correct: true,
+      },
+      {
+        answer: 'R$ 99,70',
+        correct: false,
+      },
+      {
+        answer: 'R$ 100,50',
+        correct: false,
       },
     ],
   },

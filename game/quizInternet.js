@@ -11,6 +11,48 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
+    question: 'Como é pago os tributos do DAS?',
+    answers: [
+      {
+        answer: 'Cada tributos por Guia',
+        correct: false,
+      },
+      {
+        answer: 'Não paga tributos',
+        correct: false,
+      },
+      {
+        answer: 'Todos os tributos numa guia só',
+        correct: true,
+      },
+      {
+        answer: 'Paga somente uma vez no ano',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'O que é ISS?',
+    answers: [
+      {
+        answer: 'Imposto Sobre Serviços',
+        correct: true,
+      },
+      {
+        answer: 'Imposto Social de Serviços',
+        correct: false,
+      },
+      {
+        answer: 'Imposto Serviços Sociais',
+        correct: false,
+      },
+      {
+        answer: 'Imposto Social Semestral',
+        correct: false,
+      },
+    ],
+  },
+  {
     question: 'Qual o valor da conta?',
     answers: [
       {
@@ -32,43 +74,43 @@ const questions = [
     ],
   },
   {
-    question: 'O que é recuperação tributária?',
+    question: 'O que é ICMS?',
     answers: [
       {
-        answer: 'Nenhuma das alternativas',
+        answer: 'Imposto Círculo Mensal Social',
         correct: false,
       },
       {
-        answer: 'Imposto novo do governo',
+        answer: 'Imposto Circular de Mercado Socialista',
         correct: false,
       },
       {
-        answer: 'Dívidas com o governo',
-        correct: false,
-      },
-      {
-        answer: 'Valores a receber',
+        answer: 'Imposto sobre a Circulação de Mercadorias e Serviços',
         correct: true,
+      },
+      {
+        answer: 'Imposto Circular Mensal de Serviços',
+        correct: false,
       },
     ],
   },
   {
-    question: 'Em quanto tempo é feita a recuperação?',
+    question: 'Quais são os impostos municipais?',
     answers: [
       {
-        answer: '1 Ano',
+        answer: 'IPI',
         correct: false,
       },
       {
-        answer: '365 Dias',
+        answer: 'ICMS',
         correct: false,
       },
       {
-        answer: '5 Anos',
+        answer: 'ISS',
         correct: true,
       },
       {
-        answer: '45 Dias',
+        answer: 'COFINS',
         correct: false,
       },
     ],

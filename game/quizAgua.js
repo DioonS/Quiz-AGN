@@ -11,6 +11,27 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
+    question: 'O que é produto monofásico?',
+    answers: [
+      {
+        answer: 'Algo que se paga duas vezes',
+        correct: false,
+      },
+      {
+        answer: 'Algo que se paga uma no ano',
+        correct: false,
+      },
+      {
+        answer: 'Algo que se paga uma vez',
+        correct: true,
+      },
+      {
+        answer: 'Algo que se paga trimestral',
+        correct: false,
+      },
+    ],
+  },
+  {
     question: 'Qual o valor da conta?',
     answers: [
       {
@@ -27,6 +48,27 @@ const questions = [
       },
       {
         answer: 'R$ 84,47',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'O que é imposto?',
+    answers: [
+      {
+        answer: 'Imposto tributário',
+        correct: false,
+      },
+      {
+        answer: 'Imposto de renda',
+        correct: false,
+      },
+      {
+        answer: 'Imposto fiscal',
+        correct: false,
+      },
+      {
+        answer: 'Forma que governo usa para recolher recursos do país',
         correct: false,
       },
     ],
@@ -53,23 +95,23 @@ const questions = [
     ],
   },
   {
-    question: 'Em quanto tempo é feita a recuperação?',
+    question: 'O que é PIS?',
     answers: [
       {
-        answer: '5 Anos',
+        answer: 'Programa Internacional Social',
+        correct: false,
+      },
+      {
+        answer: 'Programa Interno Social',
+        correct: false,
+      },
+      {
+        answer: 'Programa Integral Socialista',
+        correct: false,
+      },
+      {
+        answer: 'Programa de Integração Social',
         correct: true,
-      },
-      {
-        answer: '365 Dias',
-        correct: false,
-      },
-      {
-        answer: '45 Dias',
-        correct: false,
-      },
-      {
-        answer: '1 Ano',
-        correct: false,
       },
     ],
   },

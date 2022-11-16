@@ -11,6 +11,27 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
+    question: 'Quais são os impostos federais?',
+    answers: [
+      {
+        answer: 'ICMS',
+        correct: false,
+      },
+      {
+        answer: 'ISS',
+        correct: false,
+      },
+      {
+        answer: 'PIS/COFINS/IPI/IRPF/IRPJ/CSLL',
+        correct: true,
+      },
+      {
+        answer: 'PIS/COFINS',
+        correct: false,
+      },
+    ],
+  },
+  {
     question: 'Qual o valor da conta?',
     answers: [
       {
@@ -32,44 +53,65 @@ const questions = [
     ],
   },
   {
-    question: 'O que é recuperação tributária?',
+    question: 'O que é uma nota fiscal?',
     answers: [
       {
-        answer: 'Valores a receber',
+        answer: 'Um documento de registro de compra e venda',
         correct: true,
       },
       {
-        answer: 'Nenhuma das alternativas',
+        answer: 'Documento social',
         correct: false,
       },
       {
-        answer: 'Dívidas com o governo',
+        answer: 'Documento paulista',
         correct: false,
       },
       {
-        answer: 'Imposto novo do governo',
+        answer: 'Documento pessoal',
         correct: false,
       },
     ],
   },
   {
-    question: 'Em quanto tempo é feita a recuperação?',
+    question: 'Como emite guia do DAS?',
     answers: [
       {
-        answer: '1 Ano',
+        answer: 'Dentro do Site de Nota Fiscal',
         correct: false,
       },
       {
-        answer: '45 Dias',
-        correct: false,
-      },
-      {
-        answer: '365 Dias',
-        correct: false,
-      },
-      {
-        answer: '5 Anos',
+        answer: 'Pelo Simples Nacional',
         correct: true,
+      },
+      {
+        answer: 'Dentro de qualquer site',
+        correct: false,
+      },
+      {
+        answer: 'Pelo word',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'O que é planejamento tributário?',
+    answers: [
+      {
+        answer: 'Planejar suas contas diárias',
+        correct: false,
+      },
+      {
+        answer: 'Planejar dívidas',
+        correct: false,
+      },
+      {
+        answer: 'Um conjunto de sistemas legais que visam diminuir o pagamento de tributos',
+        correct: true,
+      },
+      {
+        answer: 'Um conjunto de contas',
+        correct: false,
       },
     ],
   },
