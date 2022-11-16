@@ -69,7 +69,7 @@ const questions = [
       },
       {
         answer: 'Forma que governo usa para recolher recursos do país',
-        correct: false,
+        correct: true,
       },
     ],
   },
