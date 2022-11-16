@@ -121,23 +121,40 @@ footer {
 }
 
 #restart {
-    background-color: #00c9c8;
-    color: #fff;
-    font-weight: bold;
-    height: 50px;
-    border: 1px solid #e0e0e0;
-    width: 180px;
-    text-transform: uppercase;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: 0.5s;
-    font-size: 20px;
     border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid #e0e0e0;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 5px 5px 30px 0 rgba(51, 51, 51, 40%);
+    background: linear-gradient(270deg, #f38300, #b7a596, #328dd7);
+    background-size: 600% 600%;
+
+    -webkit-animation: start 8s ease infinite;
+    -moz-animation: start 8s ease infinite;
+    animation: start 8s ease infinite;
 }
 
-#restart:hover {
-    background-color: #2a272a;
-    color: #ffffff;
+@-webkit-keyframes start {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes start {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes start {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
   /* Quizz container */
