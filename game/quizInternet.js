@@ -11,6 +11,27 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
+    question: 'Qual o valor da conta?',
+    answers: [
+      {
+        answer: 'R$ 290,78',
+        correct: false,
+      },
+      {
+        answer: 'R$ 274,80',
+        correct: false,
+      },
+      {
+        answer: 'R$ 259,46',
+        correct: true,
+      },
+      {
+        answer: 'R$ 349,48',
+        correct: false,
+      },
+    ],
+  },
+  {
     question: 'Como é pago os tributos do DAS?',
     answers: [
       {
@@ -48,27 +69,6 @@ const questions = [
       },
       {
         answer: 'Imposto Social Semestral',
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: 'Qual o valor da conta?',
-    answers: [
-      {
-        answer: 'R$ 290,78',
-        correct: false,
-      },
-      {
-        answer: 'R$ 274,80',
-        correct: false,
-      },
-      {
-        answer: 'R$ 259,46',
-        correct: true,
-      },
-      {
-        answer: 'R$ 349,48',
         correct: false,
       },
     ],

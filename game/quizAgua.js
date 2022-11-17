@@ -11,27 +11,6 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
-    question: 'O que é produto monofásico?',
-    answers: [
-      {
-        answer: 'Algo que se paga duas vezes',
-        correct: false,
-      },
-      {
-        answer: 'Algo que se paga uma no ano',
-        correct: false,
-      },
-      {
-        answer: 'Algo que se paga uma vez',
-        correct: true,
-      },
-      {
-        answer: 'Algo que se paga trimestral',
-        correct: false,
-      },
-    ],
-  },
-  {
     question: 'Qual o valor da conta?',
     answers: [
       {
@@ -48,6 +27,27 @@ const questions = [
       },
       {
         answer: 'R$ 84,47',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'O que é produto monofásico?',
+    answers: [
+      {
+        answer: 'Algo que se paga duas vezes',
+        correct: false,
+      },
+      {
+        answer: 'Algo que se paga uma no ano',
+        correct: false,
+      },
+      {
+        answer: 'Algo que se paga uma vez',
+        correct: true,
+      },
+      {
+        answer: 'Algo que se paga trimestral',
         correct: false,
       },
     ],

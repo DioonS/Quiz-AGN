@@ -11,27 +11,6 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
-    question: 'Quais são os impostos federais?',
-    answers: [
-      {
-        answer: 'ICMS',
-        correct: false,
-      },
-      {
-        answer: 'ISS',
-        correct: false,
-      },
-      {
-        answer: 'PIS/COFINS/IPI/IRPF/IRPJ/CSLL',
-        correct: true,
-      },
-      {
-        answer: 'PIS/COFINS',
-        correct: false,
-      },
-    ],
-  },
-  {
     question: 'Qual o valor da conta?',
     answers: [
       {
@@ -48,6 +27,27 @@ const questions = [
       },
       {
         answer: 'R$ 102,64',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'Quais são os impostos federais?',
+    answers: [
+      {
+        answer: 'ICMS',
+        correct: false,
+      },
+      {
+        answer: 'ISS',
+        correct: false,
+      },
+      {
+        answer: 'PIS/COFINS/IPI/IRPF/IRPJ/CSLL',
+        correct: true,
+      },
+      {
+        answer: 'PIS/COFINS',
         correct: false,
       },
     ],

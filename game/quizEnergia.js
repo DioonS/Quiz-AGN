@@ -11,6 +11,27 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
+    question: 'Qual o valor da conta?',
+    answers: [
+      {
+        answer: 'R$ 101,50',
+        correct: false,
+      },
+      {
+        answer: 'R$ 85,04',
+        correct: true,
+      },
+      {
+        answer: 'R$ 99,70',
+        correct: false,
+      },
+      {
+        answer: 'R$ 100,50',
+        correct: false,
+      },
+    ],
+  },
+  {
     question: 'O que é COFINS?',
     answers: [
       {
@@ -91,27 +112,6 @@ const questions = [
       {
         answer: '5 Anos',
         correct: true,
-      },
-    ],
-  },
-  {
-    question: 'Qual o valor da conta?',
-    answers: [
-      {
-        answer: 'R$ 101,50',
-        correct: false,
-      },
-      {
-        answer: 'R$ 85,04',
-        correct: true,
-      },
-      {
-        answer: 'R$ 99,70',
-        correct: false,
-      },
-      {
-        answer: 'R$ 100,50',
-        correct: false,
       },
     ],
   },
