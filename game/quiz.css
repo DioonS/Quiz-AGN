@@ -1,10 +1,22 @@
-/* GERAL */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
 }
+
+/**********************************/
+/* 1. Estilos gerais
+/* 2. Container
+/* 3. Answers and questions
+/* 4. Restart Button
+/* 5. Responsive
+/**********************************/
+
+/**********************************/
+/* 1. Estilos gerais
+/**********************************/
 
 body {
     background-color: #ffffff;
@@ -28,16 +40,6 @@ button:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
-}
-
-.container {
-    display: grid;
-    grid-template-areas:
-    'header'
-    'main'
-    'footer';
-    position: relative;
-    height: 100vh;
 }
 
 header,
@@ -66,17 +68,24 @@ main {
     margin-bottom: 140px;
 }
 
-footer {
-    grid-area: footer;
-    position: absolute;
-    bottom: 0;
+/**********************************/
+/* 2. Container
+/**********************************/
+
+.container {
+    display: grid;
+    grid-template-areas:
+    'header'
+    'main'
+    'footer';
+    position: relative;
+    height: 100vh;
 }
 
 .hide {
     display: none !important;
 }
 
-  /* SCORE CONTAINER */
 #quizz-container,
 #score-container,
 #container-question {
@@ -110,6 +119,10 @@ footer {
     font-weight: bold;
 }
 
+/**********************************/
+/* 3. Answers and questions
+/**********************************/
+
 #correct-answers {
     font-weight: bold;
     color: #2eb94c;
@@ -120,44 +133,6 @@ footer {
     color: #00c9c8;
 }
 
-#restart {
-    border-radius: 8px;
-    width: 180px;
-    height: 50px;
-    border: none;
-    font-weight: bold;
-    margin-top: 20px;
-    border: 1px solid #e0e0e0;
-    text-transform: uppercase;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 20px;
-    box-shadow: 5px 5px 30px 0 rgba(51, 51, 51, 40%);
-    background: linear-gradient(270deg, #f38300, #b7a596, #328dd7);
-    background-size: 600% 600%;
-
-    -webkit-animation: start 8s ease infinite;
-    -moz-animation: start 8s ease infinite;
-    animation: start 8s ease infinite;
-}
-
-@-webkit-keyframes start {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes start {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes start {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-  /* Quizz container */
 #question {
     text-align: center;
     margin-bottom: 25px;
@@ -223,7 +198,51 @@ footer {
     border: none;
 }
 
-  /* RESPONSIVO */
+/**********************************/
+/* 4. Restart Button
+/**********************************/
+
+#restart {
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid #e0e0e0;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 5px 5px 30px 0 rgba(51, 51, 51, 40%);
+    background: linear-gradient(270deg, #f38300, #b7a596, #328dd7);
+    background-size: 600% 600%;
+
+    -webkit-animation: start 8s ease infinite;
+    -moz-animation: start 8s ease infinite;
+    animation: start 8s ease infinite;
+}
+
+@-webkit-keyframes start {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes start {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes start {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/**********************************/
+/* 5. Responsive
+/**********************************/
+
 @media (max-width: 450px) {
     #quizz-container,
     #score-container {
