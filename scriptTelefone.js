@@ -30,3 +30,4 @@ window.onload = function() {
 setTimeout(function() { // Ao fim da contagem encaminha para a tela seguinte
     window.location.href = "./quizTelefone.html"
 }, 6000);
+
