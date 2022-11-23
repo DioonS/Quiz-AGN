@@ -3,7 +3,6 @@ const question = document.querySelector('#question');
 const answerBox = document.querySelector('#answers-box');
 const quizzContainer = document.querySelector('#quizz-container');
 const scoreContainer = document.querySelector('#score-container');
-const containerQuestion = document.querySelector('#container-question');
 const letters = ['a', 'b', 'c', 'd', 'e'];
 let points = 0;
 let actualQuestion = 0;
@@ -231,7 +230,6 @@ function showSuccessMessage() {
 function hideOrShowQuizz() {
   quizzContainer.classList.toggle('hide');
   scoreContainer.classList.toggle('hide');
-  containerQuestion.classList.toggle('hide');
 }
 
 // reiniciar quizz
